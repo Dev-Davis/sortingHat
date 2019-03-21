@@ -6,3 +6,4 @@ We are making a project where we can sort by the click of a button, assign stude
 # Screenshot  
 
 # How to run
+Pull the document from Github repository and run on you local http-server
