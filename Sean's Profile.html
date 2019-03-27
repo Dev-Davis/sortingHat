@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!-- saved from url=(0048)http://127.0.0.1:5500/assets/pages/projects.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sean's Profile</title>
+    <link rel="stylesheet" href="./Sean&#39;s Profile_files/main.css">
+</head>
+<body>
+        
+                
+                  <!-- Navigation -->
+                <div id="top-container"></div>
+                  <nav>
+                    <!-- TODO: Insert some sort of H1-H6 with your name here -->
+                
+                    <div id="profileCard"></div>
+        
+                    <ul id="navLinks">
+                      <li><a id="navToBio" href="http://127.0.0.1:5500/index.html">Bio</a></li>
+                      <li><a id="navToTechnologies" href="http://127.0.0.1:5500/assets/pages/technologies.html">Technologies</a></li>
+                      <li><a id="navToProjects" href="http://127.0.0.1:5500/assets/pages/projects.html#projectsPage">Projects</a></li>
+                    </ul>
+                  </nav>
+                
+                  <!-- End Navigation -->
+                  <div class="fullPage" id="projectsPage"><div class="makeCards"><h2>Project 1</h2><p><img class="cardImg" src="./Sean&#39;s Profile_files/Default-welcomer.png"></p><p class="proj">This is the best damn project</p><p>HTML, CSS, Vanilla JavaScript, Version Control with Github</p><p>true</p><p><a href="https://github.com/nss-evening-cohort-8/js-part-deux">Project 1</a></p><a href="https://github.com/nss-evening-cohort-8/js-part-deux">Sean's gitHub</a></div><div class="makeCards"><h2>Project 2</h2><p><img class="cardImg" src="./Sean&#39;s Profile_files/Default-welcomer.png"></p><p class="proj">This is the best project</p><p>HTML, CSS, Vanilla JavaScript, Version Control with Github</p><p>true</p><p><a href="https://github.com/nss-evening-cohort-8/js-part-deux">Project 1</a></p><a href="https://github.com/nss-evening-cohort-8/js-part-deux">Sean's gitHub</a></div><div class="makeCards"><h2>Project 3</h2><p><img class="cardImg" src="./Sean&#39;s Profile_files/Default-welcomer.png"></p><p class="proj">This is the best project</p><p>HTML, CSS, Vanilla JavaScript, Version Control with Github</p><p>true</p><p><a href="https://github.com/nss-evening-cohort-8/js-part-deux">Project 1</a></p><a href="https://github.com/nss-evening-cohort-8/js-part-deux">Sean's gitHub</a></div></div>
+                  <!-- Footer -->
+
+                  <footer id="page-footer">
+                    <!-- TODO: Fill in contact info here: Include things like email, LinkedIn, Twitter and GitHub links. -->
+                  </footer>
+                  <!-- End Footer -->
+
+
+    <script src="./Sean&#39;s Profile_files/main.js"></script>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					head.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					head.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>
