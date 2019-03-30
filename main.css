@@ -1,5 +1,8 @@
-
-#studentForm {
-    display: none;
+body {
+    background-color: orange;
 }
 
+/* Hiding the form */
+form{
+    display: none;
+}
